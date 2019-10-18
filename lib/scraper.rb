@@ -54,25 +54,3 @@ class Scraper
 end
 
 Scraper.new.print_courses
-# - OUTPUT- 
-# Title: Web Development Immersive
-#   Schedule: Full-Time
-#   Description: An intensive, Ruby and Javascript course that teaches the skillsnecessary to start a career as a full-stack software developer.
-# Title: iOS Development Immersive
-#   Schedule: Full-Time
-#   Description: An in-depth course on the iOS ecosystem that begins with Objective-C and Swift, explores popular iOS frameworks, and culminates in a client project with a local tech company.
-# Title: NYC Web Development Fellowship
-#   Schedule: Full-Time
-#   Description: In partnership with New York City, this free program trains NYC residents without college degrees for careers in web development.
-# Title: Introduction to Front-End Development
-#   Schedule: Part-Time
-#   Description: An introductory course designed to teach students to launch fully responsive websites from scratch using HTML, CSS, JavaScript, and jQuery.
-# Title: Android for Developers
-#   Schedule: Part-Time
-#   Description: An advanced course that trains people with at least one year of software development experience in the skills and tools necessary to work as Android Developers.
-# Title: Introduction to Data Science
-#   Schedule: Part-Time
-#   Description: A part-time course that provides students with the skills they need to make data meaningful.
-# Title: DIY Electronics - Build Your Own Sound Generating Circuit
-#   Schedule: WORKSHOP
-#   Description: This Beginners workshop teaches students the fundamentals of electricty, reading circuit diagrams, soldering, and how to build an Atari Punk Console (sound generating circuit) from scratch.
