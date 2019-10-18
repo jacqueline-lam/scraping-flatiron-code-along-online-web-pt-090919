@@ -38,16 +38,19 @@ class Scraper
     end
   end
   
-  # def print_courses
-  #   self.make_courses
-  #   Course.all.each do |course|
-  #     if course.title && course.title != ""
-  #       puts "Title: #{course.title}"
-  #       puts "  Schedule: #{course.schedule}"
-  #       puts "  Description: #{course.description}"
-  #     end
-  #   end
-  # end
+  It calls on .make_courses and then iterates over all of the courses that get created to puts out a list of course offerings. We gave you this freebie so that we can easily see how cool it is to scrape data and make real live Ruby objects with it.
+
+
+  def print_courses
+    self.make_courses
+    Course.all.each do |course|
+      if course.title && course.title != ""
+        puts "Title: #{course.title}"
+        puts "  Schedule: #{course.schedule}"
+        puts "  Description: #{course.description}"
+      end
+    end
+  end
   
 end
 
