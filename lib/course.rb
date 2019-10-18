@@ -37,14 +37,11 @@ class Scraper
       descriptoin = post.css("p").text
     end
   end
-  
-  It calls on .make_courses and then iterates over all of the courses that get created to puts out a list of course offerings. We gave you this freebie so that we can easily see how cool it is to scrape data and make real live Ruby objects with it.
 
 
   def print_courses
     #calls on .make_courses
     self.make_courses
-    
     # iterate over all courses that get created to 
     # put out a list of course offerings
     Course.all.each do |course|
@@ -54,6 +51,7 @@ class Scraper
         puts "  Description: #{course.description}"
       end
     end
+    
   end
   
 end
