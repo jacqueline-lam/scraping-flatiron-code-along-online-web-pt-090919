@@ -7,7 +7,6 @@ require 'pry'
 require_relative './course.rb'
 
 class Scraper
-  
   # Using Nokogiri and open-uri to grab the entire 
     # HTML document from the web page
   def get_page
@@ -21,10 +20,9 @@ class Scraper
     # end
   end
 
-
   # using CSS selector to grab all HTML elements that contain a course 
   def get_courses
-      self.get_page.css(".post")
+    self.get_page.css(".post")
   end
   
   # instantiating Course objects and 
