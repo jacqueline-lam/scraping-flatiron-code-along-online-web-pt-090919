@@ -44,7 +44,6 @@ class Scraper
     self.make_courses
     # iterate over all courses that get created to 
     # put out a list of course offerings
-    
     Course.all.each do |course|
       if course.title && course.title != ""
         puts "Title: #{course.title}"
@@ -52,7 +51,6 @@ class Scraper
         puts "  Description: #{course.description}"
       end
     end
-    
   end
   
 end
